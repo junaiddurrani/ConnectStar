@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginBottom="20dp"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/padding"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingTop="25dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingTop="20dp" >
+
+            <TextView
+                android:id="@+id/tvtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time's Up"
+                android:textColor="@color/complete_text"
+                android:textSize="@dimen/content_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp" >
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:alpha=".6"
+                android:gravity="center"
+                android:text="hello"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_text_size" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text"
+                android:layout_centerHorizontal="true"
+                android:alpha=".6"
+                android:gravity="center"
+                android:text="hello"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/content_text_size" />
+
+            <ImageView
+                android:id="@+id/bshare"
+                android:layout_width="@dimen/share_width"
+                android:layout_height="@dimen/pack_height"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/padding"
+                android:adjustViewBounds="true"
+                android:background="@drawable/icon_share_complete"
+                android:scaleType="fitCenter" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ButtonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="5dp"
+            android:baselineAligned="false" >
+
+            <ImageView
+                android:id="@+id/bdialogReplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/complete_dialog_button"
+                android:padding="10dp"
+                android:src="@drawable/icon_reset_white" />
+
+            <ImageView
+                android:id="@+id/bdialogMenu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="1"
+                android:background="@color/complete_dialog_button"
+                android:padding="10dp"
+                android:src="@drawable/custom_button_menu" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:src="@drawable/image_complete_dialog_top" />
+
+</FrameLayout>

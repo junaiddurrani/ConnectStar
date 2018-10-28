@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/relativelayout">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="@dimen/sound_width"
+        android:layout_height="@dimen/sound_height"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_rounrect_flow1_sound"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/padding"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="@dimen/padding"
+        android:paddingStart="@dimen/padding" >
+
+        <Button
+            android:id="@+id/bsound"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/sound_height"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:text="@string/sound_text"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sound_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/sound_height"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:text="12"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sound_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="@dimen/sound_width"
+        android:layout_height="@dimen/sound_height"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_rounrect_flow2_sound"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/padding_small"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="@dimen/padding_small"
+        android:paddingStart="@dimen/padding" >
+
+        <Button
+            android:id="@+id/bvolumeplus"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/sound_height"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:text="@string/volume_text"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sound_text_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewvolumeplus"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/sound_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:gravity="center_vertical"
+            android:padding="6dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_volume_plus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="@dimen/sound_width"
+        android:layout_height="@dimen/sound_height"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_rounrect_flow3_sound"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/padding_small"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="@dimen/padding_small"
+        android:paddingStart="@dimen/padding" >
+
+        <Button
+            android:id="@+id/bvolumeminus"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/sound_height"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:text="@string/volume_text"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sound_text_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewvolumeminus"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/sound_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:gravity="center_vertical"
+            android:padding="6dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_volume_minus" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_width="@dimen/sound_width"
+        android:layout_height="@dimen/sound_height"
+        android:layout_margin="10dp"
+        android:background="@drawable/custom_rounrect_flow4_sound"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/padding"
+        android:paddingLeft="@dimen/padding"
+        android:paddingRight="@dimen/padding"
+        android:paddingStart="@dimen/padding" >
+
+        <Button
+            android:id="@+id/bvolumereset"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sound_height"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:text="@string/reset_text"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sound_text_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

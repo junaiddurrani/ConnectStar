@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="285dp"
+        android:layout_height="336dp"
+        android:background="@drawable/dialog_bg">
+
+        <TextView
+            android:id="@+id/tvtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:paddingTop="90dp"
+            android:layout_centerHorizontal="true"
+            android:text="How to play"
+            android:alpha="0.7"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/heading_text_size"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:alpha=".6"
+            android:gravity="center"
+            android:text="Lines can't cross."
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/content_text_size" />
+    </RelativeLayout>
+
+</FrameLayout>

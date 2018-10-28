@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- String values for Rate dialog -->
+    <string name="rate">Rate</string>
+    <string name="rate_dialog_title">Rate Link</string>
+    <string name="rate_message">If you like Link, please take a moment to rate it. Thanks for your support!</string>
+    <string name="later">Later</string>
+    <string name="no_thanks">No </string>
+
+    <!-- values for admob -->
+    <string name="banner_id">ca-app-pub-1847962975297570/5827578073</string>
+    <string name="interstitial_id">ca-app-pub-5354131755778514/5704936076</string>
+
+    <!-- values for tapjoy free hints -->
+    <string name="tap_appId">349fc50b-f810-4bd1-b1d6-97087e315d09</string>
+    <string name="tap_appKey">Llnq1xe98O4xCdyCzFRG</string>
+    <string name="tap_hintId">349fc50b-f810-4bd1-b1d6-97087e315d09</string>
+
+    <!-- values for vungle -->
+    <string name="appId">57efeaeb2400ffb602000058</string>
+
+    <!-- string values for app -->
+    <string name="shareSubject">Check this out</string>
+    <string name="app_name">Super Stars</string>
+    <string name="folder_name">Link</string>
+    <string name="tag1">Dots</string>
+    <string name="tag2">Toffee</string>
+    <string name="tag3">Ball</string>
+    <string name="tag4">Pizza</string>
+    <string name="start_game">Start Game</string>
+    <string name="select_pack">PLAY</string>
+    <string name="select_tag">Select Tag</string>
+    <string name="basic_pack">Easy</string>
+    <string name="advanced_pack">Medium</string>
+    <string name="tablet_pack">Hard</string>
+    <string name="leaderboards">Leaderboards</string>
+    <string name="achievements">Achievements</string>
+    <string name="more">More</string>
+    <string name="sound">Sound : </string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="tags">Change Tags</string>
+    <string name="share_hints">Multilator</string>
+    <string name="video_hints">Unit Converter</string>
+    <string name="free_hints">Amazing Calculator</string>
+    <string name="getHints">See More</string>
+    <string name="store">Store</string>
+    <string name="help">Help</string>
+    <string name="five">5x5</string>
+    <string name="six">6x6</string>
+    <string name="seven">7x7</string>
+    <string name="eight">8x8</string>
+    <string name="nine">9x9</string>
+    <string name="ten">10x10</string>
+    <string name="eleven">11x11</string>
+    <string name="twelve">12x12</string>
+    <string name="thirteen">13x13</string>
+    <string name="fourteen">14x14</string>
+
+    <!-- string values for level complete dialog -->
+    <string name="level_complete">Level Complete!</string>
+
+    <!-- String values for permission denied -->
+    <string name="perm_denied">To use this feature please grant storage permissions to link from the settings.</string>
+
+    <!-- string values for get hints -->
+    <string name="freeHintsDes">The Amazing Calculator App </string>
+    <string name="shareHintsDes">The Multilator App</string>
+    <string name="videoHintsDes">The Unit Converter App</string>
+
+    <!-- string values for game screen -->
+    <string name="levelLabel">Level :</string>
+    <string name="movesLabel">Moves :</string>
+    <string name="hintsLabel">Hints :</string>
+    <string name="bestLabel">Best :</string>
+
+    <!-- New Strings -->
+    <string name="time_trial">Time Trial</string>
+    <string name="sound_text">SOUND</string>
+    <string name="volume_text">VOLUME</string>
+    <string name="reset_text">RESET</string>
+    <string name="label_time1" formatted="false">Time: %d:0%d</string>
+    <string name="label_time2" formatted="false">Time: %d:%d</string>
+    <string name="label_level_solved">Solved: %d</string>
+    <string name="select_time">Select Time</string>
+    <string name="time_1">30 seconds</string>
+    <string name="time_2">1 minute</string>
+    <string name="time_3">2 minutes</string>
+    <string name="time_4">3 minutes</string>
+    <string name="time_5">4 minutes</string>
+    <string name="time_6">5 minutes</string>
+    <string name="app_name1">Super</string>
+    <string name="app_name2">Stars</string>
+
+</resources>

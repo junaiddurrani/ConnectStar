@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- color for dialog background with 20 % transparency -->
+    <color name="dialog_back">#CC000000</color>
+
+    <!-- Colors used in ui and dots -->
+    <color name="add1">#ff8ff9</color>
+    <color name="add2">#472526</color>
+    <color name="add3">#9cfc7c</color>
+    <color name="add4">#56effc</color>
+    <color name="temp">#ffffff</color>
+    <color name="pack5">#dd3138</color>
+    <color name="pack6">#ffcd0f</color>
+    <color name="pack7">#008ee8</color>
+    <color name="pack8">#ff5d22</color>
+    <color name="pack9">#21b24b</color>
+    <color name="pack10">#7f1f63</color>
+    <color name="pack11">#795548</color>
+    <color name="pack12">#5c6bc0</color>
+    <color name="pack13">#0a8f08</color>
+    <color name="pack14">#9e9e9e</color>
+    <color name="main1">#e86700</color>
+    <color name="main2">#fdc000</color>
+    <color name="main3">#029871</color>
+    <color name="main4">#c80b09</color>
+
+    <!-- New Colors -->
+    <color name="main_1_new">#6a6eb5</color>
+    <color name="main_2_new">#3ec59d</color>
+    <color name="main_3_new">#f5735b</color>
+    <color name="main_4_new">#4dd1d6</color>
+    <color name="main_5_new">#fbc56d</color>
+    <color name="main_1_new_light">#aaacd5</color>
+    <color name="main_2_new_light">#89dcc3</color>
+    <color name="main_3_new_light">#fbc1b7</color>
+    <color name="main_4_new_light">#97e5e7</color>
+    <color name="main_5_new_light">#fcd79c</color>
+    <color name="sound_back">#696969</color>
+    <color name="volume_plus_back">#acacac</color>
+    <color name="volume_minus_back">#cccccc</color>
+    <color name="reset_back">#848484</color>
+    <color name="complete_text">#23a2cc</color>
+    <color name="complete_dialog_button">#42fef7</color>
+    <color name="game_help">#fa0000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="board_back">#f5f5f0</color>
+    <color name="transparent_dark">#80000000</color>
+
+    <!-- color for dots #ff0018 #fdfa13 #16c5ff #14e715 #673ab7 #ff2b76 -->
+    <color name="dots1">#46FF45</color>
+    <color name="dots2">#45F6FF</color>
+    <color name="dots3">#FDFF29</color>
+    <color name="dots4">#FF2C56</color>
+    <color name="dots5">#B32EFF</color>
+    <color name="dots6">#FF73D5</color>
+    <color name="dots7">#2B8DFF</color>
+    <color name="dots8">#FF7B29</color>
+    <color name="dots9">#938FBB</color>
+    <color name="dots10">#FFCC31</color>
+    <color name="dots11">#929594</color>
+    <color name="dots12">#29FF9C</color>
+    <color name="dots13">#CF7575</color>
+    <color name="dots14">#76D4D4</color>
+    <color name="dots15">#BDFE31</color>
+    <color name="dots16">#FF4DC5</color>
+    <color name="dots17">#C6D477</color>
+
+    <!-- colors for background and text -->
+    <color name="background_color">#061c2a</color>
+    <color name="background_board">#ffffff</color>
+    <color name="some_text_color">#b0c8d7</color>
+    <color name="textColor">#ffffff</color>
+
+</resources>
